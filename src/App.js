@@ -35,7 +35,7 @@ function App() {
   }
   const resetHandler = () => {
     gameHandler(false);
-    messageHandler("Press on Play to start!")
+    messageHandler("Press on Play to Start!")
     setBox(["","","","","","","","",""]);
   }
   const resultHandler = (val) => {
